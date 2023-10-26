@@ -1,0 +1,14 @@
+.tab{
+    margin: 48px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1.20;
+    transition: 0.2s;
+    cursor: pointer;
+    &:hover{
+        color: gray;
+        transition: 0.2s;
+
+    }
+}
