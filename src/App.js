@@ -16,13 +16,13 @@ function App() {
       try {
         const response = await fetch('/tabs.json');
         if (!response.ok) {
-          throw new Error('Ошибка сети');
+          throw new Error('Network error');
         }
         const data = await response.json();
         setTab(data);
         console.log(data);
       } catch (error) {
-        console.error('Произошла ошибка:', error);
+        console.error('Error:', error);
       }
     };
 
